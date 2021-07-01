@@ -23,4 +23,12 @@ public class Pet implements Comparable{
         }
         return this.id();
     }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

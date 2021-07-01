@@ -20,6 +20,14 @@ public class Pets{
         return pets;
     }
 
+    public static Pet[] createArray(int i){
+        Pet[] pets = new Pet[i];
+        for (int a=0;a<i;a++){
+            pets[a]=new Pet();
+        }
+        return pets;
+    }
+
     public static Pet randomPet(){
         return new Pet();
     }
